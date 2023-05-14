@@ -1,15 +1,18 @@
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Container */
 .container {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
 }
 
+/* Form container */
 .form-container {
   width: 100%;
   padding: 170px 0 320px 0;
@@ -17,11 +20,13 @@
   text-align: center;
 }
 
+/* Heading */
 .h1 {
   text-align: center;
   color: white;
 }
 
+/* Input field */
 .input {
   width: 600px;
   display: block;
@@ -33,6 +38,7 @@
   border: none;
 }
 
+/* Send button */
 .button {
   padding: 10px 40px;
   font-size: 16px;
@@ -42,15 +48,64 @@
   cursor: pointer;
 }
 
+/* Response container */
 .response-container {
   padding: 10px;
   background-color: transparent;
 }
 
+/* Response text */
 .p {
   width: 600px;
   margin: 20px auto;
   color: white;
   font-size: 20px;
   text-shadow: #655d5d 1px 0 10px;
+}
+
+/* Media queries */
+
+/* Tablets and smaller screens */
+@media (max-width: 768px) {
+  .input {
+    width: 80%;
+  }
+  
+  .button {
+    width: 60%;
+  }
+  
+  .p {
+    width: 80%;
+  }
+}
+
+/* iPhone 12 Pro and similar devices */
+@media (max-width: 390px) {
+  .input {
+    width: 90%;
+  }
+  
+  .button {
+    width: 70%;
+  }
+  
+  .p {
+    width: 90%;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 320px) {
+  .input {
+    width: 95%;
+  }
+  
+  .button {
+    width: 80%;
+  }
+  
+  .p {
+    width: 95%;
+  }
 }
