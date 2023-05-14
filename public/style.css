@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-container input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.response-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
