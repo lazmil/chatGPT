@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>ChatGPT Server</title>
   <link rel="stylesheet" href="style.css">
   <script async src="script.js"></script>
 
 </head>
+
 <body>
   <div class="container">
-    <h1>ChatGPT Server</h1>
     <div class="form-container">
-      <input type="text" id="messageInput" placeholder="Enter your message">
-      <button onclick="sendMessage()">Send</button>
-    </div>
-    <div class="response-container">
-      <p id="responseText"></p>
+      <!-- Heading -->
+      <h1 class="h1">ChatGPT Server</h1>
+
+      <!-- Input field -->
+      <input class="input" type="text" id="messageInput" placeholder="Enter your message">
+
+      <!-- Send button -->
+      <button class="button" onclick="sendMessage()">Send</button>
+
+      <!-- Response container -->
+      <div class="response-container">
+        <p class="p" id="responseText"></p>
+      </div>
     </div>
   </div>
 </body>
+
 </html>
