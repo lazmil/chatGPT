@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config(); // Load environment variables from .env file
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 const openai = new OpenAIApi(
   new Configuration({
