@@ -14,9 +14,10 @@ const openai = new OpenAIApi(
 );
 
 app.use(express.static('public'));
+app.use(express.json()); // Enable JSON request parsing
 
-app.get('/chat', async (req, res) => {
-  const message = req.query.message;
+app.post('/chat', async (req, res) => {
+  const message = req.body.message;
 
   try {
     // Send the input message to ChatGPT for generating a response

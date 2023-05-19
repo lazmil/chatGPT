@@ -15,7 +15,7 @@
 /* Form container */
 .form-container {
   width: 100%;
-  padding: 170px 0 320px 0;
+  padding: 170px 0;
   background-color: #463e3e;
   text-align: center;
 }
@@ -33,30 +33,38 @@
   margin: 50px auto 20px auto;
   padding: 15px;
   font-size: 16px;
-  background: linear-gradient(to right, #463e3e, #000000);
+  background: linear-gradient(to right, #463e3e, #000000, #463e3e);
   color: white;
   border: none;
+  text-align: center;
 }
 
 /* Send button */
 .button {
   padding: 10px 40px;
   font-size: 16px;
-  background: linear-gradient(to right, #000000, #463e3e);
+  background: linear-gradient(to right, #463e3e, #000000, #463e3e);
   color: white;
   border: none;
   cursor: pointer;
 }
 
+.button:hover{
+  background: linear-gradient(to right, #000000, #463e3e, #000000);
+}
+
+
 /* Response container */
 .response-container {
+  width: 600px;
   padding: 10px;
   background-color: transparent;
+  background: linear-gradient(to right, #463e3e, #000000, #463e3e);
+  margin: 20px auto;
 }
 
 /* Response text */
 .p {
-  width: 600px;
   margin: 20px auto;
   color: white;
   font-size: 20px;
@@ -73,6 +81,7 @@
   
   .button {
     width: 60%;
+    margin: 20px 0;
   }
   
   .p {
