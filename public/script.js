@@ -43,7 +43,7 @@ if ('webkitSpeechRecognition' in window) {
 
 async function sendToServer(message) {
   // Send the spoken text to the server for processing
-  const response = await fetch('https://part-qo87yyps8-lazmil.vercel.app/chat', {
+  const response = await fetch('https://part-l8zwtf580-lazmil.vercel.app/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
