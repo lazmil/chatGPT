@@ -9,7 +9,7 @@ const port = process.env.PORT || 3001;
 
 const openai = new OpenAIApi(
   new Configuration({
-    apiKey: process.env.VERCEL_API_KEY, // Use API key from environment variable
+    apiKey: process.env.VERCEL_API_TOKEN, // Use Vercel API key from environment variable
   })
 );
 
